@@ -6,7 +6,7 @@ body {
 h1 {
   font-family: 'Courier New', Courier, monospace !important;
   margin: 0;
-  font-size: 78px;
+  font-size: 90px;
   color: #4f60cd;
 }
 
@@ -23,20 +23,23 @@ button {
   margin-top: 50px;
   font-family: 'Amatic SC', sans-serif; 
 }
+
 button:hover {
-  background-color: #555;
-  color: white;
-  font-family: 'Amatic SC', sans-serif; 
+  background-color: #2e2b4e;
+  color: #5383c7;
+  transition: 1s;
 }
+
 p{
   margin: 0;
   font-family: 'Courier New', Courier, monospace !important;
-  color: #000000;
+  color: #f9f9f9;
   font-size: 30px;
+  font-weight: 600;
 }
 
 .image {
-  background-image: url("Banner.jpg");
+  background-image: linear-gradient(rgb(95 96 104 / 50%), rgb(0 0 0 / 78%)), url(Banner.jpg);
   height: 93vh;
   width: 100vw;
   background-position: center;
@@ -44,6 +47,7 @@ p{
   background-size: cover;
   position: relative;
 }
+
 .nav {
   height: 7vh;
   display: flex;
@@ -52,8 +56,8 @@ p{
   font-size: 37px;
   color: #fff;
   align-items: center;
-
 }
+
 .nav>.nav-links {
   display: inline;
   float: right;
